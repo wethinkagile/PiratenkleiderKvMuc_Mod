@@ -145,21 +145,21 @@ if ( is_home() ) { ?>
 			<ul class="slider_list">			
 			<li>
 				<a href="/themen" class="slider_link">
-					<div class="slider_pic"><img src="images/bulb.png"></div>
+					<div class="slider_pic"><img src="<?php bloginfo('template_directory'); ?>/images/bulb.png"></div>
 					<div class="slider_text">Informier Dich!</div>
 					über unsere Themen und Ziele
 				</a>
 			</li>
 			<li>
 				<a href="/spenden" class="slider_link">
-					<div class="slider_pic"><img src="images/support.png"></div>	
+					<div class="slider_pic"><img src="<?php bloginfo('template_directory'); ?>/images/support.png"></div>	
 					<div class="slider_text">Unterstütz uns!</div>
 					mit einer Spende
 				</a>
 			</li>
 			<li>
 				<a href="/mitglied-werden" class="slider_link">
-					<div class="slider_pic"><img src="images/user.png"></div>
+					<div class="slider_pic"><img src="<?php bloginfo('template_directory'); ?>/images/user.png"></div>
 					<div class="slider_text">Werde Pirat!</div>
 					hier Mitglied werden
 				</a>
