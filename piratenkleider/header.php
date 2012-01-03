@@ -9,10 +9,10 @@
  * @since Twenty Ten 1.0
  */
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html <?php language_attributes(); ?>>
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta http-equiv="Content-Type" content="text/html"; charset="<?php bloginfo( 'charset' ); ?>" />
 <title>
 <?php
 
@@ -39,7 +39,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Monofett' >
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Monofett" />
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 
@@ -145,21 +145,21 @@ if ( is_home() ) { ?>
 			<ul class="slider_list">			
 			<li>
 				<a href="/themen" class="slider_link">
-					<div class="slider_pic"><img src="images/bulb.png"></div>
+					<div class="slider_pic"><img src="<?php bloginfo('template_directory'); ?>/images/bulb.png"></div>
 					<div class="slider_text">Informier Dich!</div>
 					über unsere Themen und Ziele
 				</a>
 			</li>
 			<li>
 				<a href="/spenden" class="slider_link">
-					<div class="slider_pic"><img src="images/support.png"></div>	
+					<div class="slider_pic"><img src="<?php bloginfo('template_directory'); ?>/images/support.png"></div>	
 					<div class="slider_text">Unterstütz uns!</div>
 					mit einer Spende
 				</a>
 			</li>
 			<li>
 				<a href="/mitglied-werden" class="slider_link">
-					<div class="slider_pic"><img src="images/user.png"></div>
+					<div class="slider_pic"><img src="<?php bloginfo('template_directory'); ?>/images/user.png"></div>
 					<div class="slider_text">Werde Pirat!</div>
 					hier Mitglied werden
 				</a>

@@ -60,7 +60,7 @@
 			<h1 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 
 			<div class="entry-meta">
-				<?php the_category(', '); ?> vum <?php the_time('j. F Y') ?>
+				<?php the_category(', '); ?> vom <?php the_time('j. F Y') ?>
 			</div><!-- .entry-meta -->
 
 	<?php if ( is_archive() || is_search() ) : // Only display excerpts for archives and search. ?>

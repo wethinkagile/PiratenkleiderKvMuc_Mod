@@ -73,7 +73,7 @@ if ( is_home() || is_front_page() ) {?>
 	</div><!-- #colophon -->
 
 <div class="license">
-	<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/de/80x15.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/">CC BY-SA 3.0 (DE)</a> | Korbinian's Piratenkleider Mod by <a href="http://meshfields.de">nottinhill</a> | powered by <a href="http://wordpress.org/">Wordpress</a>
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/de/80x15.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/">CC BY-SA 3.0 (DE)</a> | Korbinian's Piratenkleider KvMuc_Mod by <a href="http://meshfields.de">nottinhill</a> published under GNU GPLv3 | powered by <a href="http://wordpress.org/">Wordpress</a>
 </div> <!-- #license -->
 
 </div><!-- #footer -->
