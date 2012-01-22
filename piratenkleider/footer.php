@@ -32,7 +32,8 @@ if ( is_home() || is_front_page() ) {?>
 				<div class="entry-meta"><?php the_time('j. F, Y') ?></div><!-- .entry-meta -->
 				<div class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></div> <!-- .entry-title -->	
 			</div><!-- #post-## -->	
-			<?php endwhile;  ?>						
+			<?php endwhile;  ?>
+			<div><a href="category/presse">Alle Pressemitteilungen →</a></div>			
 		</div>
 	</div><!-- #pm -->
 	<!-- Pre_footer 1 End -->
@@ -47,7 +48,8 @@ if ( is_home() || is_front_page() ) {?>
 				<div class="entry-meta"><?php the_time('j. F, Y') ?></div><!-- .entry-meta -->
 				<div class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></div>
 			</div><!-- #post-## -->	
-			<?php endwhile; // End the loop. Whew. ?>			
+			<?php endwhile; // End the loop. Whew. ?>	
+			<div><a href="category/politblog">Alle Politiposts →</a></div>			
 		</div>	
 	</div><!-- #blog -->
 	<!-- Pre_footer 2 End -->
@@ -73,7 +75,7 @@ if ( is_home() || is_front_page() ) {?>
 	</div><!-- #colophon -->
 
 <div class="license">
-	<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/de/80x15.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/">CC BY-SA 3.0 (DE)</a> | Korbinian's Piratenkleider KvMuc_Mod by <a href="http://meshfields.de">nottinhill</a> published under GNU GPLv3 | powered by <a href="http://wordpress.org/">Wordpress</a>
+	<a rel="license" href="http://www.gnu.org/licenses/gpl-3.0-standalone.html"><img alt="GNU GPLv3" style="border-width:0" src="http://www.gnu.org/graphics/gplv3-88x31.png" /></a> <a rel="license" href="http://www.gnu.org/licenses/gpl-3.0-standalone.html">GNU GPLv3</a> | Original Design by <a href="http://korbinian-polk.de">Korbinian</a> | <a href="http://wordpress.org/">Wordpress</a> theme by <a href="http://jay.lu/piratenkleider/">Jay</a> and <a href="https://github.com/nottinhill/PiratenkleiderKvMuc_Mod">nottinhill</a> | Social Media Icons by <a href="http://dryicons.com">Dryicons</a>
 </div> <!-- #license -->
 
 </div><!-- #footer -->

@@ -90,10 +90,11 @@
 				Kreisverband München
 			</div>
 			</div><!-- #logo -->
-			<!--
-			<div id="member">
-				<a href="/mitglied-werden">Werde Pirat!</a>
-			</div>-->
+			
+			<!-- <div id="member">
+				<a href="/newsletter">Newsletter</a>
+			</div>
+			-->
 			<div id="menu_wrapper">
 				<div id="access" role="navigation">
 			  	

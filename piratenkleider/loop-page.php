@@ -28,7 +28,7 @@
 			<?php } ?>
 		</div><!-- #banner -->
 
-		<div id="page_title">
+		<div class="page_title" style="margin-top:-53px">
 			<?php if ( is_front_page() ) { ?>
 				<h2 class="entry-title"><?php the_title(); ?></h2>
 			<?php } else { ?>
@@ -43,5 +43,4 @@
 		</div><!-- .entry-content -->
 	</div><!-- #post-## -->
 
-<?php comments_template( '', true ); ?>
 <?php endwhile; // end of the loop. ?>

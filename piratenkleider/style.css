@@ -621,7 +621,7 @@ a:hover {
 
 #ppi li {display: inline;}
 
-#ppi li div {
+#ppi div div {
 	float: left;
 	margin-right: 5px;
 }
@@ -1050,7 +1050,7 @@ ul#bezirker li#zentrum a.bezierk_background:hover {
 #access .class a {background-color: #3bade2;}
 
 #member {
-	float: right;
+	padding-left:700px;
 	padding-top: 40px;
 }
 	
@@ -2145,6 +2145,16 @@ h3#reply-title {
 	margin: 0 0 18px 0;
 }
 
+
+.widget-container ul {
+	margin-top:7px;
+}
+
+
+.widget-container ul li {
+	margin-left:-25px;
+}
+
 .widget-title {
 	color: #111111;
    font-family: "BebasNeueRegular",Impact,AllerLightRegular,Arial,sans-serif;
@@ -2535,3 +2545,10 @@ img#wpstats {
 
 #cs-buttons-wpcontent_slider {display: none;}
 #slider_wrapper:hover #cs-buttons-wpcontent_slider {display: block; }
+
+.textwidget ul{
+	list-style-type:none; 
+	margin:0em; 
+	margin-top:0.6em; 
+	padding:0;
+}
